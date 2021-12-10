@@ -1,5 +1,5 @@
 
-// creating an array and passing the number, questions, options, and answers
+// Creo los arrays con el numero, pregunta, respuestas correctas y opciones.
 let questions = [
     {
     numb: 1,
