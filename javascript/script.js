@@ -41,8 +41,8 @@ $(document).ready (function() {
 // por algun motivo no me lo estaría tomando...
 
 $(".dudas_btn").click(function(){
-    $("#btn1").animate({
-        color: "yellow"
+    $("#btn1").css({
+        background-color: "yellow"
     });
     $("#btn2").animate({
         color: "red"
