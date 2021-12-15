@@ -42,7 +42,7 @@ $(document).ready (function() {
 
 $(".dudas_btn").click(function(){
     $("#btn1").css({
-        background-color: "yellow"
+        color: "yellow"
     });
     $("#btn2").animate({
         color: "red"
