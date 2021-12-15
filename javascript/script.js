@@ -1,4 +1,67 @@
 
+// Verificar si el DOM esta listo
+$(document).ready (function() {
+    console.log (" Bienvenido al Central Perk, ya estamos listos para empezar")
+});
+
+// Iniciar animación Friends
+// const dudas_btn =document.querySelector(".dudas_btn button");
+
+
+// dudas_btn.onclick = () => {
+//     $("#btn1").animate({
+//         color: yellow
+//     });
+// };
+// dudas_btn.onclick = () => {
+//     $("#btn2").animate({
+//         color: "red"
+//     });
+// };
+// dudas_btn.onclick = () => {
+//     $("#btn3").animate({
+//         color: blue
+//     });
+// };
+// dudas_btn.onclick = () => {
+//     $("#btn4").animate({
+//         color: yellow
+//     });
+// };
+// dudas_btn.onclick = () => {
+//     $("#btn5").animate({
+//         color: blue
+//     });
+// };
+// dudas_btn.onclick = () => {
+//     $("#btn6").animate({
+//         color: red
+//     });
+// };
+// por algun motivo no me lo estaría tomando...
+
+$(".dudas_btn").click(function(){
+    $("#btn1").animate({
+        color: "yellow"
+    });
+    $("#btn2").animate({
+        color: "red"
+    });
+    $("#btn3").animate({
+        color: "blue"
+    });
+    $("#btn4").animate({
+        color: "yellow"
+    });
+    $("#btn5").animate({
+        color: "blue"
+    });
+    $("#btn6").animate({
+        color: "red"
+    });
+});
+
+
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
@@ -28,7 +91,11 @@ continue_btn.onclick = () => {
     showQuetions(0); // llamo a la funcion showQestions 
     queCounter(1); //paso 1 parameter para queCounter
     startTimer(30); //llamo a la funcion startTimer
-    startTimerLine(0); //llamo a la funcion startTimerLine 
+    startTimerLine(0); //llamo a la funcion startTimerLine
+
+
+
+    // aca deberia guardar el nombre del player
 };
 
 let timeValue =  30;
@@ -167,6 +234,10 @@ function showResult(){
         let scoreTag = '<span>Qué?? Soló tuviste <p>'+ userScore +'</p> de <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
+
+    // Aca deberia guardar el userScore en el array de player
+
+    // Aca deberia guardar en el DOM el player para luego tomar el rankings
 };
 
 function startTimer(time){

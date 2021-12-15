@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuestionario Friends | 3era pre entrega</title>
+    <title>Cuestionario Friends | Clase 13</title>
     <link rel="stylesheet" href="./css/estilo.css">
     <!-- Link para los Icons de FontAweome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
+    <div>
+        <h1 class="bienvenida">Bienvenidos a mi encuesta de</h1>
+        <div class="logoFriends">
+            <p class="logoLetra">F</p>
+            <i class="fas fa-circle" id="btn1"></i>
+            <p class="logoLetra">R</p>
+            <i class="fas fa-circle" id="btn2"></i>
+            <p class="logoLetra">I</p>
+            <i class="fas fa-circle" id="btn3"></i>
+            <p class="logoLetra">E</p>
+            <i class="fas fa-circle" id="btn4"></i>
+            <p class="logoLetra">N</p>
+            <i class="fas fa-circle" id="btn5"></i>
+            <p class="logoLetra">D</p>
+            <i class="fas fa-circle" id="btn6"></i>
+            <p class="logoLetra">S</p>
+        </div>
+    </div>
+    <!-- Boton para cambiar colores cartel-->
+    <div class="dudas_btn"><button>Todavia no...</button></div>
     <!-- Boton para empezar el Quiz-->
     <div class="start_btn"><button>Empezar!</button></div>
     <!-- Info Box -->
@@ -20,6 +40,7 @@
             <div class="info">3. Al acabarse el tiempo, no podras elegir.</div>
             <div class="info">4. Una vez inciado no se puede salir.</div>
             <div class="info">5. Los puntos se consiguen respondiendo correctamente.</div>
+            <div class="info">6. Dejanos tu nombre antes de participar: <input type="text" id="player" placeholder="     Ingrese su Nombre"></div>
         </div>
         <div class="buttons">
             <button class="quit">Salir</button>
@@ -55,7 +76,7 @@
     <!-- Result Box -->
     <div class="result_box">
         <div class="icon">
-            <i class="fas fa-crown"></i>
+            <i class="fas fa-couch"></i>
         </div>
         <div class="complete_text">Acabas de completar el Quiz!</div>
         <div class="score_text">
@@ -66,6 +87,8 @@
             <button class="quit">Salir</button>
         </div>
     </div>
+    <!-- Aca importo desde JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- En este archivo esta configurado el cuestionario -->
     <script src="./javascript/script.js"></script>
     <!-- En este archivo se encuentran las preguntas -->
