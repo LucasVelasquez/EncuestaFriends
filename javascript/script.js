@@ -9,8 +9,8 @@ $(document).ready (function() {
 
 
 // dudas_btn.onclick = () => {
-//     $("#btn1").animate({
-//         color: yellow
+//     $("#btn1").css({
+//         background-color: yellow
 //     });
 // };
 // dudas_btn.onclick = () => {
