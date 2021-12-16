@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuestionario Friends | Clase 13</title>
+    <title>Cuestionario Friends | 3era Pre entrega</title>
     <link rel="stylesheet" href="./css/estilo.css">
     <!-- Link para los Icons de FontAweome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -12,25 +12,25 @@
     <div>
         <h1 class="bienvenida">Bienvenidos a mi encuesta de</h1>
         <div class="logoFriends">
-            <p class="logoLetra">F</p>
+            <p class="logoLetra" id="letraF">F</p>
             <i class="fas fa-circle" id="btn1"></i>
-            <p class="logoLetra">R</p>
+            <p class="logoLetra" id="letraR">R</p>
             <i class="fas fa-circle" id="btn2"></i>
-            <p class="logoLetra">I</p>
+            <p class="logoLetra" id="letraI">I</p>
             <i class="fas fa-circle" id="btn3"></i>
-            <p class="logoLetra">E</p>
+            <p class="logoLetra" id="letraE">E</p>
             <i class="fas fa-circle" id="btn4"></i>
-            <p class="logoLetra">N</p>
+            <p class="logoLetra" id="letraN">N</p>
             <i class="fas fa-circle" id="btn5"></i>
-            <p class="logoLetra">D</p>
+            <p class="logoLetra" id="letraD">D</p>
             <i class="fas fa-circle" id="btn6"></i>
-            <p class="logoLetra">S</p>
+            <p class="logoLetra" id="letraS">S</p>
         </div>
     </div>
     <!-- Boton para cambiar colores cartel-->
     <div class="dudas_btn"><button>Todavia no...</button></div>
     <!-- Boton para empezar el Quiz-->
-    <div class="start_btn"><button>Empezar!</button></div>
+    <div class="start_btn"><button id="empezar">Empezar!</button></div>
     <!-- Info Box -->
     <div class="info_box">
         <div class="info-title"><span>Algunas condiciones antes:</span></div>
@@ -87,12 +87,83 @@
             <button class="quit">Salir</button>
         </div>
     </div>
+
+<!-- Aca Empieza la Version Hardcore -->    
+    <!-- Boton para empezar el Quiz Version Hardcore-->
+    <div class="start_btn_Hard"><button id="empezarHard">Versión Hardcore</button></div>
+    <!-- Info Box -->
+    <div class="info_box_Hard">
+        <div class="info-title_Hard"><span>Algunas condiciones antes:</span></div>
+        <div class="info-list_Hard">
+            <div class="info_Hard">1. Solo vas a tener <span>30 segundos</span> por pregunta.</div>
+            <div class="info_Hard">2. Seleccionada una respuesta, no la podrás cambiar.</div>
+            <div class="info_Hard">3. Al acabarse el tiempo, no podras elegir.</div>
+            <div class="info_Hard">4. Una vez inciado no se puede salir.</div>
+            <div class="info_Hard">5. Los puntos se consiguen respondiendo correctamente.</div>
+            <div class="info_Hard">6. Dejanos tu nombre antes de participar: <input type="text" id="player" placeholder="     Ingrese su Nombre"></div>
+        </div>
+        <div class="buttons_Hard">
+            <button class="quit_Hard">Salir</button>
+            <button class="restart_Hard">Continuar</button>
+        </div>
+    </div>
+    <!-- Quiz Box HARD -->
+    <div class="quiz_box_Hard">
+        <header>
+            <div class="title_Hard">Super Quiz de Friends</div>
+            <div class="timer_Hard">
+                <div class="time_left_txt_Hard">Tiempo:</div>
+                <div class="timer_sec"_Hard>30</div>
+            </div>
+            <div class="time_line_Hard"></div>
+        </header>
+        <section>
+            <div class="que_text_Hard">
+                <!-- Aca ingresa la pregunta HARD generada con JS -->
+            </div>
+            <div class="option_list_Hard">
+                <!-- Aca ingresan las opciones generadas con JS -->
+            </div>
+        </section>
+        <!-- footer del Quiz Box Hardcore -->
+        <footer>
+            <div class="total_que_Hard">
+                <!-- Aca ingresa el contador de preguntas generada con JS -->
+            </div>
+            <button class="next_btn_Hard">Siguiente</button>
+        </footer>
+    </div>
+    <!-- Result Box -->
+    <div class="result_box_Hard">
+        <div class="icon_Hard">
+            <i class="fas fa-couch"></i>
+        </div>
+        <div class="complete_text_Hard">Acabas de completar el Quiz!</div>
+        <div class="score_text_Hard">
+            <!-- Aca ingresa el resultado generado con JS -->
+        </div>
+        <div class="buttons_Hard">
+            <button class="restart_Hard">Reintentar</button>
+            <button class="quit_Hard">Salir</button>
+        </div>
+    </div>
+<!-- Aca Termina la Version Hardcore -->
+
+    <div>
+    <!-- Por si no le gusta Friends... -->
+        <p class="vete_text">En caso de que no te guste Friends:</p>
+        <div class="vete_btn"><button id="adios_btn">Haz Click aquí</button></div>
+    </div>
     <!-- Aca importo desde JQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- En este archivo esta configurado el cuestionario -->
     <script src="./javascript/script.js"></script>
     <!-- En este archivo se encuentran las preguntas -->
     <script src="./javascript/script2.js"></script>
+    <!-- En este archivo se despiden a los deshonrosos -->
+    <script src="./javascript/adios.js"></script>
+    <!-- En este archivo se encuentran las preguntas Modo Hardcore -->
+    <script src="./javascript/script3.js"></script>
 </body>
 </html>
 </html>

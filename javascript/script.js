@@ -41,22 +41,22 @@ $(document).ready (function() {
 // por algun motivo no me lo estaría tomando...
 
 $(".dudas_btn").click(function(){
-    $("#btn1").animate({
+    $("#btn1").css({
         color: "yellow"
     });
-    $("#btn2").animate({
+    $("#btn2").css({
         color: "red"
     });
-    $("#btn3").animate({
+    $("#btn3").css({
         color: "blue"
     });
-    $("#btn4").animate({
+    $("#btn4").css({
         color: "yellow"
     });
-    $("#btn5").animate({
+    $("#btn5").css({
         color: "blue"
     });
-    $("#btn6").animate({
+    $("#btn6").css({
         color: "red"
     });
 });
