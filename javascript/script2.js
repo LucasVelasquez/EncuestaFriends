@@ -25,13 +25,13 @@ let questions = [
   },
     {
     numb: 3,
-    question: "Joey compra una enciclopedia de:",
-    answer: "La letra V",
+    question: "Joey se dizfrazo de muchas cosas excepto de:",
+    answer: "Policia",
     options: [
-      "La letra V",
-      "La letra G",
-      "Historia",
-      "Geografía"
+      "Policia",
+      "Vaquero",
+      "Guerrero Romano",
+      "Superman"
     ]
   },
     {
@@ -58,13 +58,13 @@ let questions = [
   },
     {
     numb: 6,
-    question: "Cómo se llaman los cuadros de Phoebe?",
-    answer: "Gladys y Glynnis",
+    question: "Rachel y Monica le enseñan las X zonas erógenas de la mujer a Chandler:",
+    answer: "Eran 7",
     options: [
-      "Gladys y Rebecca",
-      "Rebecca y Glynnis",
-      "Elizabeth y Rebecca",
-      "Gladys y Glynnis"
+      "Eran 14",
+      "Eran 12",
+      "Eran 7",
+      "Eran 4"
     ]
   },
     {
@@ -80,13 +80,13 @@ let questions = [
   },
     {
     numb: 8,
-    question: "Cuántas hermanas tiene Joey?",
+    question: "Cuántas hermanas tiene Rachel?",
     answer: "7 hermanas",
     options: [
-      "9 hermanas",
-      "7 hermanas",
-      "5 hermanas",
-      "11 hermanas"
+      "1 hermana",
+      "2 hermanas",
+      "3 hermanas",
+      "No tiene hermanas"
     ]
   },
     {
@@ -102,13 +102,13 @@ let questions = [
   },
     {
     numb: 10,
-    question: "De qué trabajaba Chandler que no le gustaba?",
-    answer: "Análisis estadístico y reconfiguración de datos",
+    question: "Phoebe trabaja de",
+    answer: "Masajista",
     options: [
-      "Análisis estadístico y modificación de datos avanzados",
-      "Ingreso de datos estadísticos y evaluación del comportamiento del avance",
-      "Análisis estadístico y reconfiguración de datos",
-      "Seguimos sin saberlo..."
+      "Cantante profesional",
+      "Vende Toner",
+      "Masajista",
+      "Mesera en el Central Perk"
     ]
   },
 ];

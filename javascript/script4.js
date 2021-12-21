@@ -3,90 +3,90 @@
 let questionsHard = [
     {
     numb: 1,
-    question: "Pregunta?",
-    answer: "D",
+    question: "Comó se llama el gato sin pelo de Rachel?",
+    answer: "Mrs. Whiskerson",
     options: [
-      "A",
-      "B",
-      "C",
-      "D"
+        "Mrs. Softskinson",
+        "Mrs. Whiskerson",
+        "Mrs. Hairless Cat",
+        "Mrs. Incomplete Cat"
     ]
   },
     {
     numb: 2,
-    question: "Pregunta?",
-    answer: "A",
+    question: "Cuántas hermanas tiene Joey?",
+    answer: "7 hermanas",
     options: [
-        "A",
-        "B",
-        "C",
-        "D"
+      "9 hermanas",
+      "7 hermanas",
+      "5 hermanas",
+      "11 hermanas"
     ]
   },
     {
     numb: 3,
-    question: "Pregunta?",
-    answer: "A",
+    question: "Cómo se llaman los cuadros de Phoebe?",
+    answer: "Gladys y Glynnis",
     options: [
-        "A",
-        "B",
-        "C",
-        "D"
+      "Gladys y Rebecca",
+      "Rebecca y Glynnis",
+      "Elizabeth y Rebecca",
+      "Gladys y Glynnis"
     ]
   },
     {
     numb: 4,
-    question: "Pregunta?",
-    answer: "C",
+    question: "La guia de TV llega a nombre de?",
+    answer: "Chanandeler Bong",
     options: [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Chandeler Bong",
+        "Chanandeler Bong",
+        "Joshep Tripianni",
+        "Joseph Trubbiane"
     ]
   },
     {
     numb: 5,
-    question: "Pregunta?",
-    answer: "B",
+    question: "En la maquina de bronceado, Ross tenía que contar hasta:",
+    answer: "5 segundos",
     options: [
-        "A",
-        "B",
-        "C",
-        "D"
+        "3 Mississippis",
+        "10 segundos",
+        "5 segundos",
+        "5 Mississippis"
     ]
   },
     {
     numb: 6,
-    question: "Pregunta?",
-    answer: "A",
+    question: "Quién NO asistió a la boda de Ross y Emily?",
+    answer: "Phoebe",
     options: [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Joey",
+        "Chandler",
+        "Rachel",
+        "Phoebe"
     ]
   },
     {
     numb: 7,
-    question: "Pregunta?",
-    answer: "B",
+    question: "Monica?",
+    answer: "correcta",
     options: [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Mrs. Softskinson",
+        "Mrs. Whiskerson",
+        "Mrs. Hairless Cat",
+        "Mrs. Incomplete Cat"
     ]
   },
     {
-    numb: 8,
-    question: "Pregunta?",
-    answer: "D",
-    options: [
-        "A",
-        "B",
-        "C",
-        "D"
+      numb: 8,
+      question: "Joey compra una enciclopedia de:",
+      answer: "La letra V",
+      options: [
+        "La letra V",
+        "La letra G",
+        "La letra C",
+        "La letra B"
     ]
   },
     {
@@ -102,13 +102,13 @@ let questionsHard = [
   },
     {
     numb: 10,
-    question: "Pregunta?",
-    answer: "C",
+    question: "De qué trabajaba Chandler que no le gustaba?",
+    answer: "Análisis estadístico y reconfiguración de datos",
     options: [
-        "A",
-        "B",
-        "C",
-        "D"
+      "Análisis estadístico y modificación de datos avanzados",
+      "Ingreso de datos estadísticos y evaluación del comportamiento del avance",
+      "Análisis estadístico y reconfiguración de datos",
+      "Seguimos sin saberlo..."
     ]
   },
 ];
