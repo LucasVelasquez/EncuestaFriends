@@ -81,7 +81,7 @@ let questions = [
     {
     numb: 8,
     question: "Cuántas hermanas tiene Rachel?",
-    answer: "7 hermanas",
+    answer: "2 hermanas",
     options: [
       "1 hermana",
       "2 hermanas",
