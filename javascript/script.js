@@ -5,40 +5,6 @@ $(document).ready (function() {
 });
 
 // Iniciar animación Friends
-// const dudas_btn =document.querySelector(".dudas_btn button");
-
-
-// dudas_btn.onclick = () => {
-//     $("#btn1").css({
-//         background-color: yellow
-//     });
-// };
-// dudas_btn.onclick = () => {
-//     $("#btn2").animate({
-//         color: "red"
-//     });
-// };
-// dudas_btn.onclick = () => {
-//     $("#btn3").animate({
-//         color: blue
-//     });
-// };
-// dudas_btn.onclick = () => {
-//     $("#btn4").animate({
-//         color: yellow
-//     });
-// };
-// dudas_btn.onclick = () => {
-//     $("#btn5").animate({
-//         color: blue
-//     });
-// };
-// dudas_btn.onclick = () => {
-//     $("#btn6").animate({
-//         color: red
-//     });
-// };
-// por algun motivo no me lo estaría tomando...
 
 $(".dudas_btn").click(function(){
     $("#btn1").css({
