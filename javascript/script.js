@@ -1,3 +1,4 @@
+$.getJSON( "localdata.json", function(questions) {
 
 // Verificar si el DOM esta listo
 $(document).ready (function() {
@@ -252,3 +253,4 @@ function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;
 };
+})
