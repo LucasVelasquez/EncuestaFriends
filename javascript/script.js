@@ -58,8 +58,7 @@ continue_btn.onclick = () => {
     queCounter(1); //paso 1 parameter para queCounter
     startTimer(30); //llamo a la funcion startTimer
     startTimerLine(0); //llamo a la funcion startTimerLine
-
-
+    
 
     // aca deberia guardar el nombre del player
 };
